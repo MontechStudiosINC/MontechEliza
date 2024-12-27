@@ -1,0 +1,74 @@
+Progress: resolved 0, reused 3941, downloaded 0, added 4714, done
+node_modules/ffmpeg-static: Running install script...
+node_modules/babel-runtime/node_modules/core-js: Running postinstall script, done in 98ms
+node_modules/onnxruntime-node: Running postinstall script...
+node_modules/@discordjs/opus: Running install script, failed in 807ms
+node_modules/@discordjs/opus install$ node-pre-gyp install --fallback-to-build
+│ node-pre-gyp info it worked if it ends with ok
+│ node-pre-gyp info using node-pre-gyp@0.4.5
+│ node-pre-gyp info using node@20.18.1 | linux | x64
+│ node-pre-gyp info check checked for "/home/runner/MontechEliza/node_modules/@discordjs/o…
+│ node-pre-gyp http GET https://github.com/discordjs/opus/releases/download/v0.9.0/opus-v0…
+│ node-pre-gyp ERR! install response status 404 Not Found on https://github.com/discordjs/…
+│ node-pre-gyp WARN Pre-built binaries not installable for @discordjs/opus@0.9.0 and node@…
+│ node-pre-gyp WARN Hit error response status 404 Not Found on https://github.com/discordj…
+│ gyp info it worked if it ends with ok
+│ gyp info using node-gyp@10.2.0
+│ gyp info using node@20.18.1 | linux | x64
+│ gyp info ok 
+│ gyp info it worked if it ends with ok
+│ gyp info using node-gyp@10.2.0
+│ gyp info using node@20.18.1 | linux | x64
+│ gyp ERR! find Python 
+│ gyp ERR! find Python Python is not set from command line or npm configuration
+│ gyp ERR! find Python Python is not set from environment variable PYTHON
+│ gyp ERR! find Python checking if "python3" can be used
+│ gyp ERR! find Python - executable path is ""
+│ gyp ERR! find Python - "" could not be run
+│ gyp ERR! find Python checking if "python" can be used
+│ gyp ERR! find Python - executable path is ""
+│ gyp ERR! find Python - "" could not be run
+│ gyp ERR! find Python 
+│ gyp ERR! find Python **********************************************************
+│ gyp ERR! find Python You need to install the latest version of Python.
+│ gyp ERR! find Python Node-gyp should be able to find and use Python. If not,
+│ gyp ERR! find Python you can try one of the following options:
+│ gyp ERR! find Python - Use the switch --python="/path/to/pythonexecutable"
+│ gyp ERR! find Python (accepted by both node-gyp and npm)
+│ gyp ERR! find Python - Set the environment variable PYTHON
+│ gyp ERR! find Python - Set the npm configuration variable python:
+│ gyp ERR! find Python npm config set python "/path/to/pythonexecutable"
+│ gyp ERR! find Python For more information consult the documentation at:
+│ gyp ERR! find Python https://github.com/nodejs/node-gyp#installation
+│ gyp ERR! find Python **********************************************************
+│ gyp ERR! find Python 
+│ gyp ERR! configure error 
+│ gyp ERR! stack Error: Could not find any Python installation to use
+│ gyp ERR! stack at PythonFinder.fail (/nix/store/z8s3r4vwf4r26g2d7shnw5lva6ihim8f-pnpm-9.…
+│ gyp ERR! stack at PythonFinder.findPython (/nix/store/z8s3r4vwf4r26g2d7shnw5lva6ihim8f-p…
+│ gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:9…
+│ gyp ERR! stack at async configure (/nix/store/z8s3r4vwf4r26g2d7shnw5lva6ihim8f-pnpm-9.15…
+│ gyp ERR! stack at async run (/nix/store/z8s3r4vwf4r26g2d7shnw5lva6ihim8f-pnpm-9.15.0/lib…
+│ gyp ERR! System Linux 6.2.16
+│ gyp ERR! command "/nix/store/wfxq6w9bkp5dcfr8yb6789b0w7128gnb-nodejs-20.18.1/bin/node" "…
+│ gyp ERR! cwd /home/runner/MontechEliza/node_modules/@discordjs/opus
+│ gyp ERR! node -v v20.18.1
+│ gyp ERR! node-gyp -v v10.2.0
+│ gyp ERR! not ok 
+│ node-pre-gyp ERR! build error 
+│ node-pre-gyp ERR! stack Error: Failed to execute '/nix/store/wfxq6w9bkp5dcfr8yb6789b0w71…
+│ node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (/home/runner/MontechEliza/node_…
+│ node-pre-gyp ERR! stack     at ChildProcess.emit (node:events:518:28)
+│ node-pre-gyp ERR! stack     at maybeClose (node:internal/child_process:1104:16)
+│ node-pre-gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:…
+│ node-pre-gyp ERR! System Linux 6.2.16
+│ node-pre-gyp ERR! command "/nix/store/wfxq6w9bkp5dcfr8yb6789b0w7128gnb-nodejs-20.18.1/bi…
+│ node-pre-gyp ERR! cwd /home/runner/MontechEliza/node_modules/@discordjs/opus
+│ node-pre-gyp ERR! node -v v20.18.1
+│ node-pre-gyp ERR! node-pre-gyp -v v0.4.5
+│ node-pre-gyp ERR! not ok 
+│ Failed to execute '/nix/store/wfxq6w9bkp5dcfr8yb6789b0w7128gnb-nodejs-20.18.1/bin/node /…
+└─ Failed in 807ms at /home/runner/MontechEliza/node_modules/@discordjs/opus
+node_modules/canvas: Running install script...
+node_modules/@near-js/crypto/node_modules/secp256k1: Running install script, done in 197ms
+ ELIFECYCLE  Command failed with exit code 1.
