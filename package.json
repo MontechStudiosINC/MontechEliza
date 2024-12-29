@@ -2,6 +2,7 @@
     "name": "eliza",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
+  "install": "cross-env NODE_OPTIONS=\"--max-old-space-size=4096\" pnpm install",
         "build": "turbo run build --filter=!eliza-docs",
         "build-docker": "turbo run build",
         "start": "pnpm --filter \"@elizaos/agent\" start --isRoot",
